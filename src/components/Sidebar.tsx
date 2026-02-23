@@ -29,17 +29,6 @@ export const Sidebar = () => {
         >
           Posts
         </NavLink>
-
-        <NavLink
-          to="/users"
-          className={({ isActive }) =>
-            `block p-3 rounded-lg cursor-pointer ${
-              isActive ? "bg-steelBlueGray font-medium" : "hover:bg-gray-800"
-            }`
-          }
-        >
-          Users
-        </NavLink>
       </div>
     </div>
   );

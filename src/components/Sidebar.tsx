@@ -9,28 +9,6 @@ export const Sidebar = () => {
 
       <div className="space-y-4 text-sm">
         <NavLink
-          to="/dashboard"
-          className={({ isActive }) =>
-            `block p-3 rounded-lg cursor-pointer ${
-              isActive ? "bg-steelBlueGray font-medium" : "hover:bg-gray-800"
-            }`
-          }
-        >
-          Dashboard
-        </NavLink>
-
-        <NavLink
-          to="/posts"
-          className={({ isActive }) =>
-            `block p-3 rounded-lg cursor-pointer ${
-              isActive ? "bg-steelBlueGray font-medium" : "hover:bg-gray-800"
-            }`
-          }
-        >
-          Posts
-        </NavLink>
-
-        <NavLink
           to="/users"
           className={({ isActive }) =>
             `block p-3 rounded-lg cursor-pointer ${
